@@ -15,7 +15,7 @@ public String getFirstName(){
 public String getLastName(){
         return lastName;
 }
-
+public String getFullName(){return firstName+ "" + lastName;}
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
@@ -36,4 +36,6 @@ public String getLastName(){
                 ", lastName='" + lastName + '\'' +
                 '}';
     }
+
 }
+
